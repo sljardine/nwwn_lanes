@@ -1,0 +1,2665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>2019 Crabber Towlanes KML from TZ.kml</name>
+	<open>1</open>
+	<StyleMap id="f0f5a449-ff8d-442d-8d47-a2851897d0b0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#f0f5a449-ff8d-442d-8d47-a2851897d0b00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#f0f5a449-ff8d-442d-8d47-a2851897d0b01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="31aef458-21ae-44cb-831a-1c3402660b53">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="d33ee6e4-7031-4327-b03b-50daaa9fb7fb">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="5b61630e-adc8-46af-b648-907f67ed94d5">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="a403dc13-bef0-4f5f-bf5d-53fdd438326b">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="d05fd885-3beb-408e-9ff6-b17a3b87d9fb">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#d05fd885-3beb-408e-9ff6-b17a3b87d9fb0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#d05fd885-3beb-408e-9ff6-b17a3b87d9fb1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="e6ef1fde-1909-41d5-af0d-5ba7a2e527fb">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="61db4736-de3a-441d-a73c-7d795f0ada7f">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#61db4736-de3a-441d-a73c-7d795f0ada7f0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#61db4736-de3a-441d-a73c-7d795f0ada7f1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="4a229d5b-aa76-4ec6-928e-1993fab0c24a">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="d33ee6e4-7031-4327-b03b-50daaa9fb7fb0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="6ef154c3-1db1-44e4-84c1-e49f0a258ffb">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="e19b0e84-e21f-49d7-8ccf-86173a3ac101">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="6cafae8a-cad8-4a1a-8ee4-a33d483e98c6">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="98a079b0-63df-4cb1-9291-d7f4314d2b82">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="43cec29e-41d9-4193-97c3-dd79fff289cf">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#43cec29e-41d9-4193-97c3-dd79fff289cf0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#43cec29e-41d9-4193-97c3-dd79fff289cf1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="ac489d19-51fe-4d26-b34a-a6a28e32c75b">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="ac489d19-51fe-4d26-b34a-a6a28e32c75b0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="e19b0e84-e21f-49d7-8ccf-86173a3ac1010">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="12a3cbce-8ea0-4fd7-a7d3-75f8f6466c2e">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#12a3cbce-8ea0-4fd7-a7d3-75f8f6466c2e1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#12a3cbce-8ea0-4fd7-a7d3-75f8f6466c2e0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="57e4c9a1-ef42-426d-ba89-b2dcfb40bef8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#57e4c9a1-ef42-426d-ba89-b2dcfb40bef81</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#57e4c9a1-ef42-426d-ba89-b2dcfb40bef80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="6305711b-47a4-49ab-bcf3-185a5221b4c5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#6305711b-47a4-49ab-bcf3-185a5221b4c50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#6305711b-47a4-49ab-bcf3-185a5221b4c51</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="d3a37fe2-5834-41e9-a90c-ba0a3f013b83">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#d3a37fe2-5834-41e9-a90c-ba0a3f013b830</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#d3a37fe2-5834-41e9-a90c-ba0a3f013b831</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="5b61630e-adc8-46af-b648-907f67ed94d50">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="a70a55bb-857e-47c3-b3d2-85a079735b61">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#a70a55bb-857e-47c3-b3d2-85a079735b610</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#a70a55bb-857e-47c3-b3d2-85a079735b611</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="111508c9-7c50-4b72-88cb-f37d57735e9b">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="d3a37fe2-5834-41e9-a90c-ba0a3f013b830">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="3ffd48ea-eda4-4e4b-b861-e4ec6a824de4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#3ffd48ea-eda4-4e4b-b861-e4ec6a824de40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#3ffd48ea-eda4-4e4b-b861-e4ec6a824de41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="cda42853-2f10-4af2-9e79-0970c703978b">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#cda42853-2f10-4af2-9e79-0970c703978b1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#cda42853-2f10-4af2-9e79-0970c703978b0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="daf4968e-b6c6-467c-91a9-eee90b4f298b">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="daf4968e-b6c6-467c-91a9-eee90b4f298b0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="b061f986-15c1-4a8a-9af6-43e42c8a64c6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#b061f986-15c1-4a8a-9af6-43e42c8a64c60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#b061f986-15c1-4a8a-9af6-43e42c8a64c61</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="ac489d19-51fe-4d26-b34a-a6a28e32c75b1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#ac489d19-51fe-4d26-b34a-a6a28e32c75b</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#ac489d19-51fe-4d26-b34a-a6a28e32c75b0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="4ad591a0-8f50-41f6-adf9-d282b6e2ddea">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="e6ef1fde-1909-41d5-af0d-5ba7a2e527fb0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="9e058122-69d1-4348-8a4c-189ca1717829">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#9e058122-69d1-4348-8a4c-189ca17178290</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#9e058122-69d1-4348-8a4c-189ca17178291</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="111508c9-7c50-4b72-88cb-f37d57735e9b0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="8b5336df-975e-4955-be73-a0f97fd32d16">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="3ffd48ea-eda4-4e4b-b861-e4ec6a824de40">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="12092de2-92ca-4435-8a14-7231447d79bc">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="04174c4c-f6bd-47a3-b08e-1db803d2d325">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#04174c4c-f6bd-47a3-b08e-1db803d2d3251</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#04174c4c-f6bd-47a3-b08e-1db803d2d3250</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="88b09023-d28e-4795-93a5-4c78d4dbcbb0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#88b09023-d28e-4795-93a5-4c78d4dbcbb00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#88b09023-d28e-4795-93a5-4c78d4dbcbb01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="375244f8-ef7b-427b-a4ed-0731e0449485">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#375244f8-ef7b-427b-a4ed-0731e04494851</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#375244f8-ef7b-427b-a4ed-0731e04494850</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="d3a37fe2-5834-41e9-a90c-ba0a3f013b831">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="829eb013-3c14-4fd2-8e4e-07a773aee558">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="375244f8-ef7b-427b-a4ed-0731e04494850">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="4313ab1a-b493-47c6-89fc-ffa9b11a2f1e">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="a4ea778b-c79e-4bdb-a418-060dbdfc8cf0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#a4ea778b-c79e-4bdb-a418-060dbdfc8cf01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#a4ea778b-c79e-4bdb-a418-060dbdfc8cf00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="b067c256-ff55-4ddf-aee7-6b41f90c9730">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="709064af-acf7-459b-bfc1-21c222633be5">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="b067c256-ff55-4ddf-aee7-6b41f90c97300">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="a4ea778b-c79e-4bdb-a418-060dbdfc8cf00">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="1e396327-593e-466f-b8d5-0e136ebf3539">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="482a82e7-3904-43a9-b329-61715fd84fbb">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#482a82e7-3904-43a9-b329-61715fd84fbb1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#482a82e7-3904-43a9-b329-61715fd84fbb0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="1e59e7de-263a-4acf-99d9-28c35ab9cfd8">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="709064af-acf7-459b-bfc1-21c222633be50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#709064af-acf7-459b-bfc1-21c222633be5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#709064af-acf7-459b-bfc1-21c222633be51</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="be2c39b7-6f7e-4524-9e45-11a34882ff1d">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="74512ef3-c6df-4d16-9373-dabc11b770fa">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#74512ef3-c6df-4d16-9373-dabc11b770fa0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#74512ef3-c6df-4d16-9373-dabc11b770fa1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="57e4c9a1-ef42-426d-ba89-b2dcfb40bef80">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="1e396327-593e-466f-b8d5-0e136ebf35390">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="be2c39b7-6f7e-4524-9e45-11a34882ff1d0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="1e59e7de-263a-4acf-99d9-28c35ab9cfd80">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="9e058122-69d1-4348-8a4c-189ca17178290">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="709064af-acf7-459b-bfc1-21c222633be51">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="4313ab1a-b493-47c6-89fc-ffa9b11a2f1e0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="3504d796-7a91-421e-a868-f195e890e461">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#3504d796-7a91-421e-a868-f195e890e4611</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#3504d796-7a91-421e-a868-f195e890e4610</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="c464762c-8e70-4621-95f5-1da5a0ed059d">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="6ef154c3-1db1-44e4-84c1-e49f0a258ffb0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#6ef154c3-1db1-44e4-84c1-e49f0a258ffb</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#6ef154c3-1db1-44e4-84c1-e49f0a258ffb1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="fff1b53b-8d56-43e5-bbf9-d8af62997a96">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="12092de2-92ca-4435-8a14-7231447d79bc0">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="43cec29e-41d9-4193-97c3-dd79fff289cf0">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="e911e86e-800d-4915-90c1-a8fa08f77487">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="017448d2-7223-49e0-9041-85bf65f83407">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="04174c4c-f6bd-47a3-b08e-1db803d2d3250">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="829eb013-3c14-4fd2-8e4e-07a773aee5580">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="e04f2f55-d5b8-4fed-b129-c868358c08b8">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="dbf098a0-f75d-4f16-8524-96790209d82d">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="4ad591a0-8f50-41f6-adf9-d282b6e2ddea0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#4ad591a0-8f50-41f6-adf9-d282b6e2ddea1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#4ad591a0-8f50-41f6-adf9-d282b6e2ddea</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="2c9d93e4-47e5-4060-be24-df3130ca2ee6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#2c9d93e4-47e5-4060-be24-df3130ca2ee60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#2c9d93e4-47e5-4060-be24-df3130ca2ee61</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="a70a55bb-857e-47c3-b3d2-85a079735b610">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="4375f3cd-7e56-49ef-ac07-25f3affb29fc">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="cda42853-2f10-4af2-9e79-0970c703978b0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="e04f2f55-d5b8-4fed-b129-c868358c08b80">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="d05fd885-3beb-408e-9ff6-b17a3b87d9fb0">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="8b5336df-975e-4955-be73-a0f97fd32d160">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#8b5336df-975e-4955-be73-a0f97fd32d161</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#8b5336df-975e-4955-be73-a0f97fd32d16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="cad06324-3e20-453b-8f8c-26e10aa8a223">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="a70a55bb-857e-47c3-b3d2-85a079735b611">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="98a079b0-63df-4cb1-9291-d7f4314d2b820">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="4375f3cd-7e56-49ef-ac07-25f3affb29fc0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#4375f3cd-7e56-49ef-ac07-25f3affb29fc1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#4375f3cd-7e56-49ef-ac07-25f3affb29fc</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="b061f986-15c1-4a8a-9af6-43e42c8a64c60">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="cad06324-3e20-453b-8f8c-26e10aa8a2230">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#cad06324-3e20-453b-8f8c-26e10aa8a2231</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#cad06324-3e20-453b-8f8c-26e10aa8a223</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="8b5336df-975e-4955-be73-a0f97fd32d161">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="3ffd48ea-eda4-4e4b-b861-e4ec6a824de41">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="bbf6f9c0-ddc2-4083-8bc0-b33bf648cb5b">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#bbf6f9c0-ddc2-4083-8bc0-b33bf648cb5b0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#bbf6f9c0-ddc2-4083-8bc0-b33bf648cb5b1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="d0312516-e99c-4e08-8d82-a99553e13431">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="482a82e7-3904-43a9-b329-61715fd84fbb0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="4313ab1a-b493-47c6-89fc-ffa9b11a2f1e1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#4313ab1a-b493-47c6-89fc-ffa9b11a2f1e0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#4313ab1a-b493-47c6-89fc-ffa9b11a2f1e</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="375244f8-ef7b-427b-a4ed-0731e04494851">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="24a01ab9-3eb9-4ebf-98e4-a0cc874d21b5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#24a01ab9-3eb9-4ebf-98e4-a0cc874d21b50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#24a01ab9-3eb9-4ebf-98e4-a0cc874d21b51</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="9e058122-69d1-4348-8a4c-189ca17178291">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="1e59e7de-263a-4acf-99d9-28c35ab9cfd81">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#1e59e7de-263a-4acf-99d9-28c35ab9cfd8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#1e59e7de-263a-4acf-99d9-28c35ab9cfd80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="482a82e7-3904-43a9-b329-61715fd84fbb1">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="c464762c-8e70-4621-95f5-1da5a0ed059d0">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="bbf6f9c0-ddc2-4083-8bc0-b33bf648cb5b0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="0da401a0-ba8b-42d3-9c56-6d985ff8b239">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="d05fd885-3beb-408e-9ff6-b17a3b87d9fb1">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="ec453f00-2d47-4291-8dc1-ef3090f83fd5">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="f0f5a449-ff8d-442d-8d47-a2851897d0b00">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="1e396327-593e-466f-b8d5-0e136ebf35391">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#1e396327-593e-466f-b8d5-0e136ebf35390</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#1e396327-593e-466f-b8d5-0e136ebf3539</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="2c9d93e4-47e5-4060-be24-df3130ca2ee60">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="3504d796-7a91-421e-a868-f195e890e4610">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="0c4792aa-f01d-4c9b-8e9b-e1ee2b2a35b2">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="e19b0e84-e21f-49d7-8ccf-86173a3ac1011">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#e19b0e84-e21f-49d7-8ccf-86173a3ac101</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#e19b0e84-e21f-49d7-8ccf-86173a3ac1010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="017448d2-7223-49e0-9041-85bf65f834070">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="be2c39b7-6f7e-4524-9e45-11a34882ff1d1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#be2c39b7-6f7e-4524-9e45-11a34882ff1d0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#be2c39b7-6f7e-4524-9e45-11a34882ff1d</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="43cec29e-41d9-4193-97c3-dd79fff289cf1">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="98a079b0-63df-4cb1-9291-d7f4314d2b821">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#98a079b0-63df-4cb1-9291-d7f4314d2b820</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#98a079b0-63df-4cb1-9291-d7f4314d2b82</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="b061f986-15c1-4a8a-9af6-43e42c8a64c61">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="fff1b53b-8d56-43e5-bbf9-d8af62997a960">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="6cafae8a-cad8-4a1a-8ee4-a33d483e98c60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#6cafae8a-cad8-4a1a-8ee4-a33d483e98c61</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#6cafae8a-cad8-4a1a-8ee4-a33d483e98c6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="8a46432d-3bcf-4b32-b8cb-4f9b499a32dd">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#8a46432d-3bcf-4b32-b8cb-4f9b499a32dd1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#8a46432d-3bcf-4b32-b8cb-4f9b499a32dd0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="0da401a0-ba8b-42d3-9c56-6d985ff8b2390">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="ec453f00-2d47-4291-8dc1-ef3090f83fd50">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="cda42853-2f10-4af2-9e79-0970c703978b1">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="0c4792aa-f01d-4c9b-8e9b-e1ee2b2a35b20">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="24a01ab9-3eb9-4ebf-98e4-a0cc874d21b50">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="4375f3cd-7e56-49ef-ac07-25f3affb29fc1">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="a4d3e092-9e36-4297-a32f-b2541a7fa0c8">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="fff1b53b-8d56-43e5-bbf9-d8af62997a961">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#fff1b53b-8d56-43e5-bbf9-d8af62997a96</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#fff1b53b-8d56-43e5-bbf9-d8af62997a960</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="1ef71bba-20ad-4fa5-a7a9-74651efb4440">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="a4d3e092-9e36-4297-a32f-b2541a7fa0c80">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="0c4792aa-f01d-4c9b-8e9b-e1ee2b2a35b21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#0c4792aa-f01d-4c9b-8e9b-e1ee2b2a35b2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#0c4792aa-f01d-4c9b-8e9b-e1ee2b2a35b20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="dbf098a0-f75d-4f16-8524-96790209d82d0">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="bbf6f9c0-ddc2-4083-8bc0-b33bf648cb5b1">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="04174c4c-f6bd-47a3-b08e-1db803d2d3251">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="a4ea778b-c79e-4bdb-a418-060dbdfc8cf01">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="d0312516-e99c-4e08-8d82-a99553e134310">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="a403dc13-bef0-4f5f-bf5d-53fdd438326b0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="1ef71bba-20ad-4fa5-a7a9-74651efb44400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#1ef71bba-20ad-4fa5-a7a9-74651efb4440</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#1ef71bba-20ad-4fa5-a7a9-74651efb44401</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="31aef458-21ae-44cb-831a-1c3402660b530">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#31aef458-21ae-44cb-831a-1c3402660b53</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#31aef458-21ae-44cb-831a-1c3402660b531</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="4a229d5b-aa76-4ec6-928e-1993fab0c24a0">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>000000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="12a3cbce-8ea0-4fd7-a7d3-75f8f6466c2e0">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="c464762c-8e70-4621-95f5-1da5a0ed059d1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#c464762c-8e70-4621-95f5-1da5a0ed059d0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#c464762c-8e70-4621-95f5-1da5a0ed059d</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="5b61630e-adc8-46af-b648-907f67ed94d51">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#5b61630e-adc8-46af-b648-907f67ed94d50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#5b61630e-adc8-46af-b648-907f67ed94d5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="d8c2d752-8ae3-4741-bc89-a7dc8431aacf">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="0da401a0-ba8b-42d3-9c56-6d985ff8b2391">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#0da401a0-ba8b-42d3-9c56-6d985ff8b239</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#0da401a0-ba8b-42d3-9c56-6d985ff8b2390</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="4edafb20-e313-42bc-8d3b-8573b1476ab0">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="2c9d93e4-47e5-4060-be24-df3130ca2ee61">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="74512ef3-c6df-4d16-9373-dabc11b770fa0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="d8c2d752-8ae3-4741-bc89-a7dc8431aacf0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="c85297e6-71d2-458b-87ec-061200fbca70">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="f0f5a449-ff8d-442d-8d47-a2851897d0b01">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="3504d796-7a91-421e-a868-f195e890e4611">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="24a01ab9-3eb9-4ebf-98e4-a0cc874d21b51">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="d0312516-e99c-4e08-8d82-a99553e134311">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#d0312516-e99c-4e08-8d82-a99553e134310</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#d0312516-e99c-4e08-8d82-a99553e13431</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="cad06324-3e20-453b-8f8c-26e10aa8a2231">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="daf4968e-b6c6-467c-91a9-eee90b4f298b1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#daf4968e-b6c6-467c-91a9-eee90b4f298b</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#daf4968e-b6c6-467c-91a9-eee90b4f298b0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="1ef71bba-20ad-4fa5-a7a9-74651efb44401">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="e6ef1fde-1909-41d5-af0d-5ba7a2e527fb1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#e6ef1fde-1909-41d5-af0d-5ba7a2e527fb</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#e6ef1fde-1909-41d5-af0d-5ba7a2e527fb0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="e911e86e-800d-4915-90c1-a8fa08f774870">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="d8c2d752-8ae3-4741-bc89-a7dc8431aacf1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#d8c2d752-8ae3-4741-bc89-a7dc8431aacf</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#d8c2d752-8ae3-4741-bc89-a7dc8431aacf0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="c71e7143-e403-4062-9d3b-ebb9b46923f6">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="dbf098a0-f75d-4f16-8524-96790209d82d1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dbf098a0-f75d-4f16-8524-96790209d82d</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dbf098a0-f75d-4f16-8524-96790209d82d0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="61db4736-de3a-441d-a73c-7d795f0ada7f0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="ec453f00-2d47-4291-8dc1-ef3090f83fd51">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#ec453f00-2d47-4291-8dc1-ef3090f83fd50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#ec453f00-2d47-4291-8dc1-ef3090f83fd5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="61db4736-de3a-441d-a73c-7d795f0ada7f1">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="017448d2-7223-49e0-9041-85bf65f834071">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#017448d2-7223-49e0-9041-85bf65f83407</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#017448d2-7223-49e0-9041-85bf65f834070</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="111508c9-7c50-4b72-88cb-f37d57735e9b1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#111508c9-7c50-4b72-88cb-f37d57735e9b</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#111508c9-7c50-4b72-88cb-f37d57735e9b0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="57e4c9a1-ef42-426d-ba89-b2dcfb40bef81">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="e911e86e-800d-4915-90c1-a8fa08f774871">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#e911e86e-800d-4915-90c1-a8fa08f774870</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#e911e86e-800d-4915-90c1-a8fa08f77487</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="829eb013-3c14-4fd2-8e4e-07a773aee5581">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#829eb013-3c14-4fd2-8e4e-07a773aee5580</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#829eb013-3c14-4fd2-8e4e-07a773aee558</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="b067c256-ff55-4ddf-aee7-6b41f90c97301">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#b067c256-ff55-4ddf-aee7-6b41f90c97300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#b067c256-ff55-4ddf-aee7-6b41f90c9730</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="12092de2-92ca-4435-8a14-7231447d79bc1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#12092de2-92ca-4435-8a14-7231447d79bc0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#12092de2-92ca-4435-8a14-7231447d79bc</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="36e8f0eb-36ae-410d-99a7-9cd16ac92689">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="6305711b-47a4-49ab-bcf3-185a5221b4c50">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="6ef154c3-1db1-44e4-84c1-e49f0a258ffb1">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="6305711b-47a4-49ab-bcf3-185a5221b4c51">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="4ad591a0-8f50-41f6-adf9-d282b6e2ddea1">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="6cafae8a-cad8-4a1a-8ee4-a33d483e98c61">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="36e8f0eb-36ae-410d-99a7-9cd16ac926890">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#36e8f0eb-36ae-410d-99a7-9cd16ac926891</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#36e8f0eb-36ae-410d-99a7-9cd16ac92689</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="c71e7143-e403-4062-9d3b-ebb9b46923f60">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="a403dc13-bef0-4f5f-bf5d-53fdd438326b1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#a403dc13-bef0-4f5f-bf5d-53fdd438326b0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#a403dc13-bef0-4f5f-bf5d-53fdd438326b</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="8a46432d-3bcf-4b32-b8cb-4f9b499a32dd0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="74512ef3-c6df-4d16-9373-dabc11b770fa1">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="4a229d5b-aa76-4ec6-928e-1993fab0c24a1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#4a229d5b-aa76-4ec6-928e-1993fab0c24a0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#4a229d5b-aa76-4ec6-928e-1993fab0c24a</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="8a46432d-3bcf-4b32-b8cb-4f9b499a32dd1">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="31aef458-21ae-44cb-831a-1c3402660b531">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="e04f2f55-d5b8-4fed-b129-c868358c08b81">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#e04f2f55-d5b8-4fed-b129-c868358c08b80</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#e04f2f55-d5b8-4fed-b129-c868358c08b8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="4edafb20-e313-42bc-8d3b-8573b1476ab00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#4edafb20-e313-42bc-8d3b-8573b1476ab0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#4edafb20-e313-42bc-8d3b-8573b1476ab01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="c85297e6-71d2-458b-87ec-061200fbca700">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="d33ee6e4-7031-4327-b03b-50daaa9fb7fb1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#d33ee6e4-7031-4327-b03b-50daaa9fb7fb</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#d33ee6e4-7031-4327-b03b-50daaa9fb7fb0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="88b09023-d28e-4795-93a5-4c78d4dbcbb00">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="36e8f0eb-36ae-410d-99a7-9cd16ac926891">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="c71e7143-e403-4062-9d3b-ebb9b46923f61">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#c71e7143-e403-4062-9d3b-ebb9b46923f6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#c71e7143-e403-4062-9d3b-ebb9b46923f60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="88b09023-d28e-4795-93a5-4c78d4dbcbb01">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="a4d3e092-9e36-4297-a32f-b2541a7fa0c81">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#a4d3e092-9e36-4297-a32f-b2541a7fa0c8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#a4d3e092-9e36-4297-a32f-b2541a7fa0c80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="c85297e6-71d2-458b-87ec-061200fbca701">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#c85297e6-71d2-458b-87ec-061200fbca70</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#c85297e6-71d2-458b-87ec-061200fbca700</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="12a3cbce-8ea0-4fd7-a7d3-75f8f6466c2e1">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="4edafb20-e313-42bc-8d3b-8573b1476ab01">
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffff0000</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<styleUrl>#74512ef3-c6df-4d16-9373-dabc11b770fa</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2396166335652,44.63709997719494,0 -124.1668215646851,44.58822916268833,0 -124.2543667010359,44.51513335723527,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#d3a37fe2-5834-41e9-a90c-ba0a3f013b83</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.0866666885136,45.52083331277016,0 -124.2083333427849,45.47999998127444,0 -124.5098499932907,44.81570001280716,0 -124.2653666615214,44.69110000483734,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#b067c256-ff55-4ddf-aee7-6b41f90c97301</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.594566694138,43.31000003082849,0 -124.6791667038298,43.14166665588539,0 -124.7558329725953,42.83250001431353,0 -124.7533329611596,42.77916702381103,0 -124.6350000447392,42.68499998707421,0 -124.4525000184165,41.82500002783485,0 -124.2866669745493,41.65333300154853,0 -124.3508330064733,41.05000002860326,0 -124.6316670255406,40.46833299499268,0 -124.440832969001,40.206666998107,0 -123.9200000080627,39.69833300936913,0 -123.9191670002998,39.33333297225155,0 -123.8416666457929,38.85833333805775,0 -123.3649999846191,38.11666664013966,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#4edafb20-e313-42bc-8d3b-8573b1476ab00</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.302499961095,44.43333332823687,0 -124.302499961095,44.40076663816762,0 -124.3833333348005,43.72833334393132,0 -124.594566694138,43.31000003082849,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#cda42853-2f10-4af2-9e79-0970c703978b</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.3061166682604,44.47143335546109,0 -124.3609500128661,44.44605001797377,0 -124.6833833059419,44.30739998332627,0 -124.6833333596121,44.42999997349803,0 -124.5248333532407,44.78249998542417,0 -124.2801499666576,44.65789998541825,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#04174c4c-f6bd-47a3-b08e-1db803d2d325</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.105116647145,44.60939999935016,0 -124.226583336434,44.67121666246939,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#43cec29e-41d9-4193-97c3-dd79fff289cf</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.226583336434,44.67121666246939,0 -124.1918000296437,44.73626666346078,0 -124.0749999984242,45.06000003131445,0 -124.0383333736407,45.53666667630151,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#a4d3e092-9e36-4297-a32f-b2541a7fa0c81</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2801499666576,44.65789998541825,0 -124.2873832911569,44.627383346684,0 -124.3061166682604,44.47143335546109,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#dbf098a0-f75d-4f16-8524-96790209d82d1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2543667010359,44.51516665180531,0 -124.2396166335652,44.63709997719494,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#0da401a0-ba8b-42d3-9c56-6d985ff8b2391</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.1085332994966,44.58193331148034,0 -124.1263833631812,44.57058331696771,0 -124.2553667056101,44.46293331211501,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#d0312516-e99c-4e08-8d82-a99553e134311</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2553667056101,44.46293331211501,0 -124.2542500098804,44.43043330885246,0 -124.2916666380946,44.11916668246231,0 -124.172499995259,44.02916663822639,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#017448d2-7223-49e0-9041-85bf65f834071</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2983333053126,44.07500002666835,0 -124.3083333510555,43.96083336142675,0 -124.2208333101319,44.01833331096176,0 -124.2983333053126,44.07500002666835,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#a70a55bb-857e-47c3-b3d2-85a079735b61</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.3358332971852,43.73083334934788,0 -124.3791666790182,43.64666666668823,0 -124.2950000166194,43.6800000275321,0 -124.3358332971852,43.73083334934788,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#fff1b53b-8d56-43e5-bbf9-d8af62997a961</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.4375000396339,43.40833331076964,0 -124.3150000182735,43.63500002054578,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#d05fd885-3beb-408e-9ff6-b17a3b87d9fb</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.3150000182735,43.63500002054578,0 -124.3983333135832,43.60666666685067,0 -124.4816666987244,43.4374999816535,0 -124.4375000396339,43.40833331076964,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#be2c39b7-6f7e-4524-9e45-11a34882ff1d1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.5475000038157,43.31000003082849,0 -124.5791666955592,43.24749997988079,0 -124.4733332973282,43.14583335059054,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#a4ea778b-c79e-4bdb-a418-060dbdfc8cf0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.3999999579298,43.35416665418889,0 -124.5475000038157,43.31000003082849,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#98a079b0-63df-4cb1-9291-d7f4314d2b821</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.4483333626342,43.36833333628153,0 -124.4999999662003,43.39999999709924,0 -124.5308332908548,43.34583331361927,0 -124.4483333626342,43.36833333628153,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#709064af-acf7-459b-bfc1-21c222633be50</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2708333591829,40.75333332830859,0 -124.3758333004934,40.79083332622125,0 -124.4541666627632,40.76133331877095,0 -124.5849999956882,40.46833333802883,0 -124.4058333478903,40.22833331300507,0 -123.8758333489722,39.70833330987359,0 -123.8766666262297,39.33333332106298,0 -123.7958333423558,38.87500002587269,0 -123.3386666805489,38.17000003087917,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#31aef458-21ae-44cb-831a-1c3402660b530</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.4100000036726,40.85749999067092,0 -124.4433333397628,40.7925000136027,0 -124.3925000134542,40.81333332464836,0 -124.4100000036726,40.85749999067092,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#6305711b-47a4-49ab-bcf3-185a5221b4c5</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2583333020044,40.77666669344787,0 -124.358333310275,40.81416666198152,0 -124.3908333691076,40.89250003389989,0 -124.3075005229556,41.0500008446623,0 -124.2458333346574,41.65333333841274,0 -124.184999962606,41.70833332727319,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#61db4736-de3a-441d-a73c-7d795f0ada7f</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2766666593119,42.00999997837214,0 -124.3999999579298,41.83499997745889,0 -124.2649999692225,41.68750002011762,0 -124.2183332986962,41.72666665237477,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#6ef154c3-1db1-44e4-84c1-e49f0a258ffb0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.3299999970562,42.0000000117498,0 -124.4500000069808,42.02833330160257,0 -124.4166666708907,41.8775000127772,0 -124.3299999970562,42.0000000117498,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#111508c9-7c50-4b72-88cb-f37d57735e9b1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.4733332973282,43.12083330104807,0 -124.6666666466513,43.02333336137308,0 -124.7083332943061,42.83333333741095,0 -124.7066666499595,42.79416669412745,0 -124.5916666629062,42.70333334728113,0 -124.4583333185455,42.06000002423446,0 -124.3083333510555,42.03500003248404,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#bbf6f9c0-ddc2-4083-8bc0-b33bf648cb5b</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.5999999744709,43.21250000332044,0 -124.6333333105611,43.14166665588539,0 -124.65666669074,43.06833335691633,0 -124.5183333235078,43.14166665588539,0 -124.5999999744709,43.21250000332044,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#6cafae8a-cad8-4a1a-8ee4-a33d483e98c60</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2316666331323,43.65833331410193,0 -124.2641666919649,43.64333332970984,0 -124.408333359326,43.39166664266406,0 -124.3816666904539,43.37500000999367,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#c71e7143-e403-4062-9d3b-ebb9b46923f61</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.1691667065658,44.0083333376997,0 -124.3166666626201,43.91416666876267,0 -124.333333375581,43.77000003035827,0 -124.2316666331323,43.67333330763896,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#12a3cbce-8ea0-4fd7-a7d3-75f8f6466c2e</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.0866666885136,45.52083331277016,0 -124.1233333132971,45.06000003131445,0 -124.2365166373512,44.74133332709751,0 -124.2653666615214,44.69110000483734,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#4a229d5b-aa76-4ec6-928e-1993fab0c24a1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.495833310418,45.70416667167207,0 -124.3849999791471,45.44166667268067,0 -124.235000011657,45.49166667451566,0 -124.2333332774789,45.63500001000191,0 -124.495833310418,45.70416667167207,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#cad06324-3e20-453b-8f8c-26e10aa8a2230</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.0383333736407,45.53666667630151,0 -123.979166645936,45.55833331831842,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#a403dc13-bef0-4f5f-bf5d-53fdd438326b1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.0366666394626,45.57916669002863,0 -124.0066666818972,45.57083334094228,0 -124.0383333736407,45.55999999410378,0 -124.0366666394626,45.57916669002863,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#d8c2d752-8ae3-4741-bc89-a7dc8431aacf1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.0533333524235,45.60583334018418,0 -123.972499978718,45.57916669002863,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#88b09023-d28e-4795-93a5-4c78d4dbcbb0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.1343333636142,46.20833330626565,0 -124.1583332937339,46.15666664817412,0 -124.0533333524235,45.60583334018418,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#8a46432d-3bcf-4b32-b8cb-4f9b499a32dd</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.184999962606,46.18833331225743,0 -124.3208333184024,46.08583333360102,0 -124.2124999985672,45.645833345059,0 -124.0874999657712,45.61249999585321,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#3504d796-7a91-421e-a868-f195e890e461</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.3416666871456,46.06833335943692,0 -124.5166666791612,45.94333333110352,0 -124.5249999907259,45.73166669385091,0 -124.235000011657,45.65416663581303,0 -124.3416666871456,46.06833335943692,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#2c9d93e4-47e5-4060-be24-df3130ca2ee6</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.0874996962766,45.61250018498832,0 -124.1849996032799,46.18833175249857,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#36e8f0eb-36ae-410d-99a7-9cd16ac926890</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.4066666251478,46.22916668508511,0 -124.5791666955592,46.21166668506807,0 -124.5249999907259,45.97133334794734,0 -124.3541666544926,46.09933331987958,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#e04f2f55-d5b8-4fed-b129-c868358c08b81</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.6100000202137,46.19666665493592,0 -124.558333326816,45.94833332890769,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#0c4792aa-f01d-4c9b-8e9b-e1ee2b2a35b21</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2583333020044,46.17083332218829,0 -124.2583333020044,46.20000012247258,0 -124.3799999562757,46.24833331514532,0 -124.3999999579298,46.24833331514532,0 -124.4066666251478,46.22916668508511,0 -124.3541666544926,46.09933331987958,0 -124.2583333020044,46.17083332218829,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#c85297e6-71d2-458b-87ec-061200fbca701</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2000000312203,46.21666665213156,0 -124.16666669513,46.22499997238845,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#e911e86e-800d-4915-90c1-a8fa08f774871</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2766666593119,46.62666663573319,0 -124.2000000312203,46.21666665213156,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#24a01ab9-3eb9-4ebf-98e4-a0cc874d21b5</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2233333215676,46.22499997238845,0 -124.2666667034006,46.22916668508511,0 -124.2891666266589,46.2533333489454,0 -124.3791666790182,46.55416669201971,0 -124.3008333167484,46.60833332899624,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<Camera>
+			<longitude>-123.6757796537827</longitude>
+			<latitude>43.73057659813097</latitude>
+			<altitude>814836.4841756274</altitude>
+			<heading>2.377978835818316</heading>
+			<tilt>15.39902570296727</tilt>
+			<roll>2.929575603908205</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#4313ab1a-b493-47c6-89fc-ffa9b11a2f1e1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.3216666854915,46.25916669231027,0 -124.3666666218396,46.29166666733718,0 -124.4500000069808,46.50833335524096,0 -124.4041667035437,46.53750000239018,0 -124.3216666854915,46.25916669231027,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#f0f5a449-ff8d-442d-8d47-a2851897d0b0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.4500000069808,46.50833335524096,0 -124.5316666579439,46.44833330641386,0 -124.5399999695086,46.43333335586116,0 -124.3666666218396,46.29166666733718,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#4ad591a0-8f50-41f6-adf9-d282b6e2ddea0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.551666659598,46.408333316252,0 -124.6066666416889,46.33333335487279,0 -124.5916666629062,46.26250001800595,0 -124.408333359326,46.29583332813952,0 -124.551666659598,46.408333316252,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#ac489d19-51fe-4d26-b34a-a6a28e32c75b1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2766666593119,46.62666663573319,0 -124.172499995259,46.68500001903658,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#1ef71bba-20ad-4fa5-a7a9-74651efb44400</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2816666821833,46.64166664756679,0 -124.1874999740417,46.70416669412268,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#daf4968e-b6c6-467c-91a9-eee90b4f298b1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.3366666642742,46.80583332439498,0 -124.4350000281982,46.74749997190955,0 -124.3849999791471,46.57499998299323,0 -124.303333328184,46.62666663573319,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#5b61630e-adc8-46af-b648-907f67ed94d51</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.4558333071098,46.73333332539313,0 -124.5183333235078,46.69333335600578,0 -124.4583333185455,46.53333334678552,0 -124.408333359326,46.56333331087416,0 -124.4558333071098,46.73333332539313,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#57e4c9a1-ef42-426d-ba89-b2dcfb40bef8</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.5183333235078,46.6933332941947,0 -124.6466667348287,46.61000001499456,0 -124.5166666791612,46.48749999634666,0 -124.4583333185455,46.53333328479039,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#ec453f00-2d47-4291-8dc1-ef3090f83fd51</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.5266666350725,46.71333336274502,0 -124.6666666466513,46.62916666009312,0 -124.7916666794473,47.02499998397011,0 -124.6241666319073,46.96833332496932,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#4375f3cd-7e56-49ef-ac07-25f3affb29fc0</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.7041667283553,46.63833332943489,0 -124.8916666877179,47.22333332741414,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#e6ef1fde-1909-41d5-af0d-5ba7a2e527fb1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.6241666319073,46.96833332496932,0 -124.5183333235078,46.9266666848558,0 -124.4624999743278,46.75166667161152,0 -124.5266666350725,46.71333336274502,0 -124.6241666319073,46.96833332496932,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#d33ee6e4-7031-4327-b03b-50daaa9fb7fb1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2441666903108,46.8641666772777,0 -124.3125000068378,46.8199999704359,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#e19b0e84-e21f-49d7-8ccf-86173a3ac1011</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.4900000102891,46.91749997852754,0 -124.439999961238,46.76666666217993,0 -124.3000000394908,46.84999997307058,0 -124.4900000102891,46.91749997852754,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#12092de2-92ca-4435-8a14-7231447d79bc1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.3125000068378,46.8199999704359,0 -124.2816666821833,46.64166664756679,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#b061f986-15c1-4a8a-9af6-43e42c8a64c6</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2533333689645,46.88583335439103,0 -124.28333332653,46.86166669022847,0 -124.4933332989823,46.93750002162545,0 -124.9650000271163,48.2233333203057,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#482a82e7-3904-43a9-b329-61715fd84fbb</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.6833333596121,43.95833331003794,0 -124.6833499784449,44.26873332949268,0 -124.3340333428503,44.41801663488448,0 -124.302499961095,44.43333332823687,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#829eb013-3c14-4fd2-8e4e-07a773aee5581</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.9833332945922,48.18749996995007,0 -125.0416666552079,48.07916666580736,0 -124.6333333105611,46.99000000577423,0 -124.5216667020326,46.94833330642474,0 -124.9833332945922,48.18749996995007,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#375244f8-ef7b-427b-a4ed-0731e0449485</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.8716666860637,47.23583332018551,0 -124.8033333695368,47.04999997965107,0 -124.6333333105611,46.99000000577423,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#1e396327-593e-466f-b8d5-0e136ebf35391</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.8166667039728,48.18749996995007,0 -124.9650000271163,48.2233333203057,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#9e058122-69d1-4348-8a4c-189ca1717829</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.7291666630493,44.4041666491616,0 -124.7291666630493,43.95833331003794,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#8b5336df-975e-4955-be73-a0f97fd32d160</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.812499958359,48.39000000907048,0 -124.9650000271163,48.2233333203057,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#3ffd48ea-eda4-4e4b-b861-e4ec6a824de4</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.2041666870026,45.6249999843244,0 -124.0816666656422,45.58999997414761,0 -124.085000044167,45.54416667954153,0 -124.2083333427849,45.5025000115229,0 -124.2041666870026,45.6249999843244,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<styleUrl>#1e59e7de-263a-4acf-99d9-28c35ab9cfd81</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.3366666642742,46.80583332439498,0 -124.303333328184,46.62666663573319,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<Camera>
+			<longitude>-123.6757796537827</longitude>
+			<latitude>43.73057659813097</latitude>
+			<altitude>814836.4841756274</altitude>
+			<heading>2.377978835818316</heading>
+			<tilt>15.39902570296727</tilt>
+			<roll>2.929575603908205</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#c464762c-8e70-4621-95f5-1da5a0ed059d1</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-124.3008333167484,46.60833332899624,0 -124.2233333215676,46.22499997238845,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
