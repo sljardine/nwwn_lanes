@@ -1,2 +1,11 @@
 
+# Lines starting with hash (#) are comments and ignored.
+# Adding / on the end ignores entire directory paths.
+# Blank lines are ignored, so you can use them to add space and make your file easier to read.
+# An asterisk (*) means any number of characters (zero or more).
+# A question mark (?) replaces zero or one character (i.e., for numbered files, for example).
+# A exclamation point (!) means "not" or exception, so you can use it to allow files from ignored directories or patterns.
+# The / character means that the rule applies only to files and folders located in the same folder.
+
+#data
 data/large_data/AIS_2021_03_15.csv
