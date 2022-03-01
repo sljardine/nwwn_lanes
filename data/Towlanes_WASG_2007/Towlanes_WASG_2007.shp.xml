@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Washington Sea Grant</origin>
+				<pubdate>2007</pubdate>
+				<title>Crabber-Tugboat Towlane Agreement, WaSG, 2007</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Washington</pubplace>
+					<publish>University of Washington Sea Grant</publish>
+				</pubinfo>
+				<ftname Sync="TRUE">Towlanes_WASG_2007</ftname><onlink Sync="TRUE">\\DLCDL2620\C$\GisData\Working\GISData_MarineReservesProcess\For_OCA\Atlas_Transfer_09\Towlanes_WASG_2007.shp</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Tow lanes for Oregon, Washington, and California. The lines depict mutually agreed upon tow lane areas as agreed by Tow boat operators and Northwest Crab Fishermen.</abstract>
+			<purpose>General reference. Towlane Charts for Crabbers and Towboats from Cape Flattery to San Francisco.</purpose>
+			<supplinf>
+As a result of mutual interference between West Coast crab fishermen and towboats with tows, a ""gentlemen's agreement"" was reached in 1971 to provide towing lanes for towboats along a major portion of the West Coast. Almost every year since, a meeting has been held to review and revise these towboat lanes; some significant changes have been made.
+
+The general agreement is that crab fishermen will not put crab pots in the designated lanes. If they choose to do so, they forfeit the right to complain if tugs and tows destroy their pots.
+
+The towboaters agree to stay within the designated lanes, or well outside the fishing areas, as long as weather and ship safety will allow.
+
+The agreement has worked well over the years, saving millions of dollars for both fishing and towing industries. Regulatory authorities recognize the existence of this voluntary agreement; they have publicly stated they see no reason to involve themselves as long as the two industries - fishing and towing - are working to solve their own problems.
+
+The Oregon State University and Washington State University Extension/Sea Grant staffs have acted as negotiator, administrator, and producer of charts for this effort. The mutual agreement is between the two industries; the Sea Grant Institutions have provided a forum for the dissussion and has handled the printing and distribution of reports and chartlets that result from annual meetings.  Oregon Sea Grant was responsible during the period of 1971-1990, while Washington Sea Grant has been responsible for stewarding the agreement from the late 1990's through 2007.
+
+In the early 1990's, the Northwest Towboat Association was responsible for organizing the annual lane-negotiation meeting, and for publishing and distributing any changes in towboat lanes and fishing areas that result from the yearly negotiations.
+</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>1987</begdate>
+					<begtime>unknown</begtime>
+					<enddate>2007</enddate>
+					<endtime>unknown</endtime>
+				</rngdates>
+			</timeinfo>
+			<current>2007</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-125.210953</westbc>
+				<eastbc Sync="TRUE">-123.038323</eastbc>
+				<northbc Sync="TRUE">48.230819</northbc>
+				<southbc Sync="TRUE">37.910128</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">161045.841176</leftbc><rightbc Sync="TRUE">576446.878123</rightbc><bottombc Sync="TRUE">-1374918.747691</bottombc><topbc Sync="TRUE">2377352.180349</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>tow</themekey>
+				<themekey>towlane</themekey>
+				<themekey>Crabber</themekey>
+				<themekey>Towboat</themekey>
+				<themekey>Fishing</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Coast</placekey>
+				<placekey>Northwest</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Washington</placekey>
+				<placekey>Pacific ocean</placekey>
+				<placekey>California</placekey>
+				<placekey>Columbia</placekey>
+				<placekey>Gearhart</placekey>
+				<placekey>Newport</placekey>
+			</place>
+			<stratum>
+				<stratkt>None</stratkt>
+				<stratkey>Sea Surface</stratkey>
+			</stratum>
+		</keywords>
+		<accconst>None.</accconst>
+		<useconst>Not for legal or navigational purposes.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Steve Harbell</cntper>
+					<cntorg>Washington Sea Grant</cntorg>
+				</cntperp>
+				<cntpos>Marine Field Agent</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<city>Seattle</city>
+					<state>WA</state>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>360.875.9331</cntvoice>
+				<cntemail>sharbell@u.washington.edu</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Generated from Washington Sea Grant electronically published data.</datacred>
+		<secinfo>
+			<secclass>Unclassified</secclass>
+		</secinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>no known problems</attraccr>
+		</attracc>
+		<logic>no known problems</logic>
+		<complete>no known problems</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>no known problems</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Washington Sea Grant</origin>
+						<pubdate>2007</pubdate>
+						<title>Tow Boat Lanes, 2007</title>
+						<geoform>Map</geoform>
+						<pubinfo>
+							<pubplace>Washington</pubplace>
+							<publish>University of Washington Sea Grant</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2007</caldate>
+							<time>unknown</time>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+				<srccontr>Generated from Washington Sea Grant Electonic data Files.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Electronic data from Washington Sea Grant  was converted to a shapefile format.</procdesc>
+				<procdate>2008</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Andy Lanier</cntper>
+							<cntorg>Dept. Of Land Conservation and Development</cntorg>
+						</cntperp>
+						<cntpos>NOAA Coastal Management Fellow</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>635 Capitol St. NE</address>
+							<city>Salem</city>
+							<state>OR</state>
+							<postal>97301</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(503) 373 - 0050 x246</cntvoice>
+						<cntfax>(503) 378 - 6033</cntfax>
+						<cntemail>Andy.Lanier@state.or.us</cntemail>
+						<hours>Regular Business Hours</hours>
+						<cntinst>Email preferred</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\User\LOCALS~1\Temp\xml39.tmp</srcused><date Sync="TRUE">20080228</date><time Sync="TRUE">15502900</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\GisData\Working\Vector\Towlane_Agreement\Towlanes2007</srcused><date Sync="TRUE">20080303</date><time Sync="TRUE">16295200</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20080415</date><time Sync="TRUE">08112800</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\GisData\Working\GISData_MarineReservesProcess\For_OCA\Human_Dimension\Towlanes_WASG_2007</srcused><procdate Sync="TRUE">20090130</procdate><proctime Sync="TRUE">11033000</proctime></procstep></lineage>
+		<cloud>0</cloud>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="Towlanes_WASG_2007">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">53</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>13</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="Towlanes_WASG_2007"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">53</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_Lambert_Conformal_Conic</projcsn></cordsysn><planar><planci><plance Sync="TRUE">coordinate pair</plance><plandu Sync="TRUE">User_Defined_Unit</plandu><coordrep><absres Sync="TRUE">0.000000</absres><ordres Sync="TRUE">0.000000</ordres></coordrep></planci><mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">43.000000</stdparll><stdparll Sync="TRUE">45.500000</stdparll><longcm Sync="TRUE">-120.500000</longcm><latprjo Sync="TRUE">41.750000</latprjo><feast Sync="TRUE">1312335.958000</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></mapproj></planar></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="Towlanes_WASG_2007">
+			<enttyp>
+				<enttypl Sync="TRUE">Towlanes_WASG_2007</enttypl>
+				<enttypd>Polygon Attribute Table</enttypd>
+				<enttypds>None</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">53</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">RECNUM</attrlabl><attalias Sync="TRUE">RECNUM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth></attr><attr><attrlabl Sync="TRUE">NAME</attrlabl><attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">17</attwidth></attr><attr><attrlabl Sync="TRUE">LAT</attrlabl><attalias Sync="TRUE">LAT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr><attr><attrlabl Sync="TRUE">LON</attrlabl><attalias Sync="TRUE">LON</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr><attr><attrlabl Sync="TRUE">ALTITUDE</attrlabl><attalias Sync="TRUE">ALTITUDE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth></attr><attr><attrlabl Sync="TRUE">LONGNAME</attrlabl><attalias Sync="TRUE">LONGNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">17</attwidth></attr><attr><attrlabl Sync="TRUE">LineClass</attrlabl><attalias Sync="TRUE">LineClass</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl Sync="TRUE">Label</attrlabl><attalias Sync="TRUE">Label</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth></attr><attr><attrlabl Sync="TRUE">DateApplic</attrlabl><attalias Sync="TRUE">DateApplic</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Steve Harbell</cntper>
+					<cntorg>Washington Sea Grant</cntorg>
+				</cntperp>
+				<cntpos>Marine Field Agent</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<city>Seattle</city>
+					<state>WA</state>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>360.875.9331</cntvoice>
+				<cntemail>sharbell@u.washington.edu</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>Tow boat lanes for Oregon, Washington, and California generated from Washington Sea Grant's Electronic data files.</resdesc>
+		<distliab>
+DLCD and Ecotrust make no warrantees regarding the accuracy
+of the data or appropriateness for any user purposes.
+</distliab>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<time>unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+		<stdorder><digform><digtinfo><transize Sync="TRUE">0.006</transize><dssize Sync="TRUE">0.006</dssize></digtinfo></digform></stdorder></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20090130</metd>
+		<metrd>20071220</metrd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Andy Lanier</cntper>
+					<cntorg>Dept. Of Land Conservation and Development</cntorg>
+				</cntperp>
+				<cntpos>NOAA Coastal Management Fellow</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>635 Capitol St. NE</address>
+					<city>Salem</city>
+					<state>OR</state>
+					<postal>97301</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(503) 373 - 0050 x246</cntvoice>
+				<cntfax>(503) 378 - 6033</cntfax>
+				<cntemail>Andy.Lanier@state.or.us</cntemail>
+				<hours>Regular Business Hours</hours>
+				<cntinst>Email preferred</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+		<langmeta Sync="TRUE">en</langmeta><mettc Sync="TRUE">local time</mettc><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20090130</CreaDate><CreaTime>11033000</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20090130</SyncDate><SyncTime>13295100</SyncTime><ModDate>20090130</ModDate><ModTime>13295100</ModTime><DataProperties><lineage><Process Name="Project_7" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20080415" Time="081128">Project C:\GisData\Working\GISData_MarineReservesProcess\Human_Dimension\Towlanes2007.shp C:\GisData\Working\GISData_MarineReservesProcess\For_OCA\Human_Dimension\Towlanes2007.shp PROJCS['NAD_1983_Lambert_Conformal_Conic',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Lambert_Conformal_Conic'],PARAMETER['False_Easting',1312335.958],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-120.5],PARAMETER['Standard_Parallel_1',43.0],PARAMETER['Standard_Parallel_2',45.5],PARAMETER['Latitude_Of_Origin',41.75],UNIT['User_Defined_Unit',0.3048000000012192]] # GEOGCS['GCS_WGS_84',DATUM['D_WGS_84',SPHEROID['WGS84',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]]</Process></lineage></DataProperties><MetaID>{5A793E35-6C63-4ABE-916C-4ABEFE09D689}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">Towlanes_WASG_2007</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">161045.841176</westBL><eastBL Sync="TRUE">576446.878123</eastBL><northBL Sync="TRUE">2377352.180349</northBL><southBL Sync="TRUE">-1374918.747691</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-125.210953</westBL><eastBL Sync="TRUE">-123.038323</eastBL><northBL Sync="TRUE">48.230819</northBL><southBL Sync="TRUE">37.910128</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\DLCDL2620\C$\GisData\Working\GISData_MarineReservesProcess\For_OCA\Atlas_Transfer_09\Towlanes_WASG_2007.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.006</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_Lambert_Conformal_Conic</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="Towlanes_WASG_2007"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">53</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20090130</mdDateSt></metadata>
