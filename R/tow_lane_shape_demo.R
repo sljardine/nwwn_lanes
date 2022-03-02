@@ -1,7 +1,8 @@
 library(here)
 library(sf)
 library(tidyverse)
-
+library(leaflet) 
+library(htmlwidgets) #save maps as .html files
 
 dat <- read_csv(here("data", "Towlane_all.csv")) %>% 
   st_as_sf(., coords = c("long_dd", "lat_dd"), crs = 4326) 
@@ -12,6 +13,12 @@ dat <- cbind(dat, st_coordinates(dat %>% select(geometry)))
 ggplot() +
   geom_sf(data = dat) + 
   theme_bw()
+
+tow_lanes_all <- leaflet(dat) %>% 
+  addTiles() %>%
+  addCircleMarkers(lng = ~X, lat = ~Y)
+
+saveWidget(tow_lanes_all, file = here("output", "tow_lanes_all.html"))
 
 line <- dat %>% slice(1 : 5) %>% summarize(m = mean(lat_s)) %>% st_cast("LINESTRING")
 
