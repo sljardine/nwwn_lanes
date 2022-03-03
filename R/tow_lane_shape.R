@@ -4,27 +4,33 @@ library(tidyverse)
 library(leaflet) 
 library(htmlwidgets) #save maps as .html files
 
-dat <- read_csv(here("data", "towlane_order_2019.csv")) %>% 
+#load data
+dat <- read_csv(here("data", "Towlane_all_jk.csv")) %>% 
   st_as_sf(., coords = c("long_dd", "lat_dd"), crs = 4326) 
 
 dat <- cbind(dat, st_coordinates(dat %>% select(geometry)))
 
-towlane_order_2019 <- leaflet(dat) %>% 
+#inspect
+leaflet(dat) %>% 
   addTiles() %>%
   addCircleMarkers(lng = ~X, lat = ~Y, 
     popup = ~line)
 
-saveWidget(towlane_order_2019, file = here("output", "towlane_order_2019.html"))
-
-
-lines <- dat %>% arrange(order) %>% 
+#process points -> polygons
+lines <- dat %>% 
   group_by(line) %>% 
-  summarize(m = mean(Y)) %>% 
+  summarize(m = mean(X), do_union=FALSE) %>% 
   st_cast("LINESTRING")
 
-#plot data
-lanes_map <- leaflet(lines) %>% 
+#inspect
+leaflet() %>% 
   addTiles() %>% 
-  addPolygons()
+  addPolylines(data = lines, label = ~line) %>%
+  addCircleMarkers(data = dat, lng = ~X, lat = ~Y,
+                   radius = 0.5, label = ~order)
 
-lanes_map
+leaflet() %>% 
+  addTiles() %>% 
+  addPolylines(data = lines %>% filter(line == "y_2_"), label = ~line) %>%
+  addCircleMarkers(data = dat, lng = ~X, lat = ~Y,
+    radius = 0.5, label = ~order)
