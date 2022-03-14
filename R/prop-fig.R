@@ -10,7 +10,7 @@ library(tidyverse)
 lanes <- st_read(here("data", "tow_lanes.kml")) %>% 
   st_make_valid()
 
-ais <- read_csv(here("data", "AIS_2021_03_15.csv"))  
+ais <- read_csv(here("data", "large_data", "AIS_2021_03_15.csv"))  
 
 coast <- st_read(here("data", "us_medium_shoreline", 
   "us_medium_shoreline.shp"))
