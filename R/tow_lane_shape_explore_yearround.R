@@ -8,13 +8,11 @@ library(htmlwidgets) #save maps as .html files
 lanes <- read_csv(here("data","Towlane_all_jk_ln.csv")) %>% 
   st_as_sf(., coords = c("long_dd", "lat_dd"),crs = 4326) %>% st_make_valid()
 
-dat <- lanes[lanes$type=="Year-round",]
+dat <- lanes %>% filter(type == "Year-round")
 
 dat <- cbind(dat, st_coordinates(dat %>% select(geometry)))
 
-#df <- dat[c(18,9,10,11,12),]
-
-#plot towlane coords
+#plot towlane coordinates only with labels
 tow_lanes_all <- leaflet(dat) %>% 
   addTiles() %>%
   addCircleMarkers(lng = ~X, lat = ~Y,label=~label)
