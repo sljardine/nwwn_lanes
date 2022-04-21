@@ -8,4 +8,4 @@
 # The / character means that the rule applies only to files and folders located in the same folder.
 
 #data
-data/large_data/AIS_2021_03_15.csv
+data/large_data/
