@@ -1,5 +1,5 @@
 #' ---
-#' title: "Rasterize AIS data"
+#' title: "Rasterize Monthly AIS data"
 #' author: "L. Nguyen"
 #' date: '`r format(Sys.Date(), "%B %d, %Y")`'
 #' output:
@@ -16,8 +16,8 @@ library(tidyverse)
 library(here)
 library(sf)
 library(leaflet)
-#library(leaftime)
 library(htmlwidgets)
+library(htmltools)
 
 # +
 #' # Overview
@@ -39,9 +39,9 @@ lanes <- st_read(here("data", "towlanes_2019.shp"), quiet = TRUE)
 
 #' # Make Grid
 #' To make the grid, we will use the domain file as a starting point, and use 
-#' `st_make_grid()` to create polygons (grid cells) with dimensions of 0.01 deg. 
+#' `st_make_grid()` to create polygons (grid cells) with dimensions of 0.015 deg. 
 
-grid <- st_make_grid(domain, what = "polygons", cellsize = 0.02, crs = st_crs(domain))
+grid <- st_make_grid(domain, what = "polygons", cellsize = 0.015, crs = st_crs(domain))
 grid.df <- data.frame(geometry = grid) %>% 
   mutate(id = as.numeric(rownames(.)))
 
@@ -96,22 +96,6 @@ for(period in periods) {
   
 }
 
-# dat.comb <- dat.comb %>% 
-#   mutate(month = ifelse(month == "02", "02-01-2020",
-#                         ifelse(month == "03", "03-01-2020",
-#                                ifelse(month == "04", "04-01-2020", 
-#                                       ifelse(month == "04-15", "04-15-2020",
-#                                              ifelse(month == "05", "05-01-2020",
-#                                                     ifelse(month == "06", "06-01-2020",
-#                                                            ifelse(month == "07", "07-01-2020",
-#                                                                   ifelse(month == "08", "08-01-2020",
-#                                                                          ifelse(month == "09", "09-01-2020",
-#                                                                                 ifelse(month == "10", "10-01-2020",
-#                                                                                        ifelse(month == "11", "11-01-2020",
-#                                                                                               ifelse(month == "11-24", "11-24-2020","12-01-2020")))))))))))))
-# 
-# dat.comb <- dat.comb %>% mutate(month = as.Date(month, format = "%m-%d-%Y"))
-
 dat.comb <- dat.comb %>% 
   arrange(month, id)
 
@@ -122,9 +106,25 @@ st_write(obj = dat.comb, dsn = here("data","large_data", str_c("AIS_2020_all_mon
 #' the different number of vessel counts in each grid cell. 
 
 pal <- colorBin(palette = "YlOrRd", domain = dat.comb$count, bins = c(1,5,25,50,100))
-#pal <- colorBin(palette = "viridis", domain = dat.rast.proj$count)
 
-# for summer map, comment hideGroup() call to show summer lanes
+tag.map.title <- tags$style(HTML("
+  .leaflet-control.map-title {
+    transform: translate(40px, 2px);
+    position: fixed !important;
+    left: 0%;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    background: rgba(255,255,255,0.75);
+  }
+"))
+
+title.text <- '<h2 style="margin-top:4px; margin-bottom:0px;"> 2020 Tug/Tow AIS Vessel Traffic </h2>'
+subtitle.text <- 
+  '<p style="margin-top:2px;margin-bottom:2px;">Vessel traffic data obtained from <a href="https://www.fisheries.noaa.gov/inport/item/64830">Marine Cadastre</a> in the form of AIS vessel tracks.<br><a href="https://api.vtexplorer.com/docs/ref-aistypes.html">Vessel codes</a> included in this analysis are: 31 (tow), 32 (tow), and 52 (tug).</p>'
+title <- tags$div(tag.map.title, HTML(paste(title.text, subtitle.text)))
+
 map <- leaflet() %>%
   addTiles() %>%
   addPolygons(data = dat.comb %>% filter(month == "02"),
@@ -194,7 +194,7 @@ map <- leaflet() %>%
               color = "gray",
               weight = 0.15) %>%
   addPolygons(data = dat.comb %>% filter(month == "11-24"),
-              group = "Nov 24 (year-round)",
+              group = "Nov 24",
               fillColor = ~pal(count),
               fillOpacity = 0.9,
               color = "gray",
@@ -211,77 +211,76 @@ map <- leaflet() %>%
                opacity = 1,
                weight = 2.5) %>%
   addPolylines(data = lanes %>% filter(type == "Summer"),
-               group = "Summer Lanes",
+               group = "Summer Lanes (Apr 15 - Nov 24)",
                color = "green",
                opacity = 1,
                weight = 2.5) %>%
   addLayersControl(baseGroups = c("Feb", "Mar", "Apr",
-                                  "Apr 15 (summer)",
+                                  "Apr 15 (summer)", "May (summer)",
                                   "Jun (summer)", "Jul (summer)",
                                   "Aug (summer)", "Sep (summer)",
                                   "Oct (summer)", "Nov (summer)",
-                                  "Nov 24 (year-round)", "Dec"),
-                   overlayGroups = c("Year-Round Lanes", "Summer Lanes"),
+                                  "Nov 24", "Dec"),
+                   overlayGroups = c("Year-Round Lanes", "Summer Lanes (Apr 15 - Nov 24)"),
                    options = layersControlOptions(collapsed = FALSE),
                    position = "topleft") %>%
-  hideGroup("Summer Lanes") %>%
   addLegend(position = "topleft",
             pal = pal,
-            values = c(1,5,10,25,50,75,100),
+            title = "Vessel Count",
+            values = c(1,5,25,50,100),
             opacity = 0.9) %>%
+  addScaleBar(position = "bottomright") %>%
+  addMiniMap(zoomLevelFixed = 4, position = "bottomleft") %>% 
+  setView(lng = -123.889, lat = 46.713, zoom = 8) %>% 
   htmlwidgets::onRender("function(el, x) {
-    this.on('baselayerchange',
-            function(e) {e.layer.bringToBack();})
-    }")
+                        this.on('baselayerchange',
+                                function(e) {e.layer.bringToBack();})
+                        }") %>% 
+  htmlwidgets::onRender("function() {
+                        $('.leaflet-control-layers-overlays').prepend('Lane Type');
+                        $('.leaflet-control-layers-list').prepend('Months');
+                        }") %>% 
+  addControl(title, position = "topleft", className = "map-title")
 
 saveWidget(map, file = here("output",str_c("AIS_2020_monthly_map_v2.html")))
 
 
-map <- leaflet() %>%
+leaflet() %>%
   addTiles() %>%
-  addTimeslider(data = dat.comb,
-                stroke = TRUE,
-                color = "gray",
-                weight = 0.15,
-                fillColor = ~pal(count),
-                fillOpacity = 0.9,
-                options = timesliderOptions(position = "topright",
-                                            timeAttribute = "month",
-                                            range = TRUE)) %>% 
+  addPolygons(data = dat.comb %>% filter(month == "02"),
+              group = "Feb",
+              fillColor = ~pal(count),
+              fillOpacity = 0.9,
+              color = "gray",
+              weight = 0.15) %>%
+  addPolygons(data = dat.comb %>% filter(month == "03"),
+              group = "Mar",
+              fillColor = ~pal(count),
+              fillOpacity = 0.9,
+              color = "gray",
+              weight = 0.15) %>% 
   addPolylines(data = lanes %>% filter(type == "Year-round"),
-               group = "Year-Round Lanes", 
-               color = "red",
+               group = "Year-Round Lanes",
+               color = "blue",
                opacity = 1,
                weight = 2.5) %>%
   addPolylines(data = lanes %>% filter(type == "Summer"),
-               group = "Summer Lanes",
-               color = "orange",
+               group = "Summer Lanes (Apr 15 - Nov 24)",
+               color = "green",
                opacity = 1,
-               weight = 2.5) %>% 
-  addLayersControl(overlayGroups = c("Year-Round Lanes", "Summer Lanes"), 
+               weight = 2.5) %>%
+  addLayersControl(baseGroups = c("Feb", "Mar"),
+                   overlayGroups = c("Year-Round Lanes", "Summer Lanes (Apr 15 - Nov 24)"),
                    options = layersControlOptions(collapsed = FALSE),
                    position = "topleft") %>%
-  hideGroup("Summer Lanes") %>%
   addLegend(position = "topleft",
             pal = pal,
-            values = c(1,5,10,25,50,75,100),
+            title = "Vessel Count",
+            values = c(1,5,25,50,100),
             opacity = 0.9) %>% 
-  htmlwidgets::onRender("function(el, x) {
-    this.on('baselayerchange', 
-            function(e) {e.layer.bringToBack();})
-    }")
-
-saveWidget(map, file = here("output",str_c("AIS_2020_monthly_map_slider.html")))
-
-pal <- colorBin(palette = "plasma", domain = test.geom$count, bins = 4)
-
-
-map <- leaflet() %>% 
-  addTiles() %>% 
-  addGeoJSON(test.json,
-             fillColor = count,
-             fillOpacity = 0.9,
-             color = "gray",
-             weight = 0.15)
-
-saveWidget(map, file = here("output",str_c("test.html")))
+  htmlwidgets::onRender("function() {
+                        $('.leaflet-control-layers-overlays').prepend('Lane Type');
+                        $('.leaflet-control-layers-list').prepend('Months');
+                        }") %>% 
+  addControl(title, position = "topleft", className = "map-title")
+  
