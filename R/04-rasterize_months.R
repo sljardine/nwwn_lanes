@@ -21,7 +21,7 @@ library(htmltools)
 
 # +
 #' # Overview
-#' To visualize vessel transit density along the West Coast, we will convert the 
+#' To visualize vessel transit counts along the West Coast, we will convert the 
 #' AIS tracks data into a raster that represents the vessel counts through each 
 #' grid cell. This script generates a grid for the domain, calculates the number 
 #' of vessels that transit through each grid cell and plots the results in an 
@@ -63,12 +63,15 @@ for(period in periods) {
   # year-round data set will go up to April 15, and begin again on November 24
   # summer data set is the period between April 15 and November 24
   ifelse(period == "yr",
-         months <- c("02", "03", "04", "11", "12"),
+         months <- c("01", "02", "03", "04", "11", "12"),
          months <- c("04", "05", "06", "07", "08", "09", "10", "11"))
   
   dat <- st_read(here("data", "large_data", str_c("AISTracks_2020_",period,".shp")), 
                  quiet = TRUE) %>% 
     mutate(mon = str_sub(StartDt, 6, 7))
+  
+  dat <- dat %>% 
+    mutate(mon = ifelse(StartDt < "2020-01-01","01",mon))
 
   for(month in months) {
     
@@ -99,7 +102,7 @@ for(period in periods) {
 dat.comb <- dat.comb %>% 
   arrange(month, id)
 
-st_write(obj = dat.comb, dsn = here("data","large_data", str_c("AIS_2020_all_monthly_grid.shp")), delete_dsn = T)
+st_write(obj = dat.comb, dsn = here("data","large_data", "AIS_2020_all_monthly_grid.shp"), delete_dsn = T)
 
 #' # Plot
 #' We will plot the resulting raster in leaflet, using colorbins to indicate 
@@ -127,6 +130,12 @@ title <- tags$div(tag.map.title, HTML(paste(title.text, subtitle.text)))
 
 map <- leaflet() %>%
   addTiles() %>%
+  addPolygons(data = dat.comb %>% filter(month == "01"),
+              group = "Jan",
+              fillColor = ~pal(count),
+              fillOpacity = 0.9,
+              color = "gray",
+              weight = 0.15) %>%
   addPolygons(data = dat.comb %>% filter(month == "02"),
               group = "Feb",
               fillColor = ~pal(count),
@@ -140,13 +149,13 @@ map <- leaflet() %>%
               color = "gray",
               weight = 0.15) %>%
   addPolygons(data = dat.comb %>% filter(month == "04"),
-              group = "Apr",
+              group = "Apr 1-15",
               fillColor = ~pal(count),
               fillOpacity = 0.9,
               color = "gray",
               weight = 0.15) %>%
   addPolygons(data = dat.comb %>% filter(month == "04-15"),
-              group = "Apr 15 (summer)",
+              group = "Apr 15-30 (summer)",
               fillColor = ~pal(count),
               fillOpacity = 0.9,
               color = "gray",
@@ -188,13 +197,13 @@ map <- leaflet() %>%
               color = "gray",
               weight = 0.15) %>%
   addPolygons(data = dat.comb %>% filter(month == "11"),
-              group = "Nov (summer)",
+              group = "Nov 1-24 (summer)",
               fillColor = ~pal(count),
               fillOpacity = 0.9,
               color = "gray",
               weight = 0.15) %>%
   addPolygons(data = dat.comb %>% filter(month == "11-24"),
-              group = "Nov 24",
+              group = "Nov 24-30",
               fillColor = ~pal(count),
               fillOpacity = 0.9,
               color = "gray",
@@ -215,12 +224,12 @@ map <- leaflet() %>%
                color = "green",
                opacity = 1,
                weight = 2.5) %>%
-  addLayersControl(baseGroups = c("Feb", "Mar", "Apr",
-                                  "Apr 15 (summer)", "May (summer)",
+  addLayersControl(baseGroups = c("Jan", "Feb", "Mar", "Apr 1-15",
+                                  "Apr 15-30 (summer)", "May (summer)",
                                   "Jun (summer)", "Jul (summer)",
                                   "Aug (summer)", "Sep (summer)",
-                                  "Oct (summer)", "Nov (summer)",
-                                  "Nov 24", "Dec"),
+                                  "Oct (summer)", "Nov 1-24 (summer)",
+                                  "Nov 24-30", "Dec"),
                    overlayGroups = c("Year-Round Lanes", "Summer Lanes (Apr 15 - Nov 24)"),
                    options = layersControlOptions(collapsed = FALSE),
                    position = "topleft") %>%
@@ -243,44 +252,5 @@ map <- leaflet() %>%
   addControl(title, position = "topleft", className = "map-title")
 
 saveWidget(map, file = here("output",str_c("AIS_2020_monthly_map_v2.html")))
+#saveWidget(map, file = here("output",str_c("TugTow_AIS_2020_monthly_map.html")))
 
-
-leaflet() %>%
-  addTiles() %>%
-  addPolygons(data = dat.comb %>% filter(month == "02"),
-              group = "Feb",
-              fillColor = ~pal(count),
-              fillOpacity = 0.9,
-              color = "gray",
-              weight = 0.15) %>%
-  addPolygons(data = dat.comb %>% filter(month == "03"),
-              group = "Mar",
-              fillColor = ~pal(count),
-              fillOpacity = 0.9,
-              color = "gray",
-              weight = 0.15) %>% 
-  addPolylines(data = lanes %>% filter(type == "Year-round"),
-               group = "Year-Round Lanes",
-               color = "blue",
-               opacity = 1,
-               weight = 2.5) %>%
-  addPolylines(data = lanes %>% filter(type == "Summer"),
-               group = "Summer Lanes (Apr 15 - Nov 24)",
-               color = "green",
-               opacity = 1,
-               weight = 2.5) %>%
-  addLayersControl(baseGroups = c("Feb", "Mar"),
-                   overlayGroups = c("Year-Round Lanes", "Summer Lanes (Apr 15 - Nov 24)"),
-                   options = layersControlOptions(collapsed = FALSE),
-                   position = "topleft") %>%
-  addLegend(position = "topleft",
-            pal = pal,
-            title = "Vessel Count",
-            values = c(1,5,25,50,100),
-            opacity = 0.9) %>% 
-  htmlwidgets::onRender("function() {
-                        $('.leaflet-control-layers-overlays').prepend('Lane Type');
-                        $('.leaflet-control-layers-list').prepend('Months');
-                        }") %>% 
-  addControl(title, position = "topleft", className = "map-title")
-  
