@@ -21,38 +21,47 @@ library(htmltools)
 
 # +
 #' # Overview
-#' To visualize vessel transit counts along the West Coast, we will convert the 
-#' AIS tracks data into a raster that represents the vessel counts through each 
-#' grid cell. This script generates a grid for the domain, calculates the number 
-#' of vessels that transit through each grid cell and plots the results in an 
-#' interactive leaflet map.
+#' To visualize vessel transit counts along the West Coast, the AIS tracks data 
+#' is converted into a raster that represents the number of vessels that transit 
+#' through each grid cell. This rasterization is completed for each month of the year 
+#' to expore the temporal change in vessel traffic between summer and non-summer 
+#' towlane months. This script generates a grid for the domain, 
+#' calculates the number of vessels that transit through each grid cell and 
+#' plots the results in an interactive leaflet map.
 #' 
 
 # +
-#' To begin, we will need three data sets for this analysis: 1) the domain shapefile, 
-#' 2) the AIS vessel tracks data, and 3) the towlane shapefile. The AIS data will 
-#' read in during the rasterization piece, since we have separate data files for 
-#' summer vs. year-round time periods.
+#' # Load Data
+#' The data sets needed for this analysis are: 1) the domain shapefile, 
+#' 2) the AIS vessel tracks data (summer and year-round), and 3) the towlane 
+#' shapefile. The AIS data will be read in during the rasterization piece, 
+#' since we have separate data files for summer vs. year-round time periods.
 
-domain <- st_read(here("data", "domain.shp"), quiet = TRUE)
-lanes <- st_read(here("data", "towlanes_2019.shp"), quiet = TRUE) 
+domain <- read_sf(here("data","domain.shp"))
+lanes <- read_sf(here("data","towlanes_2019.shp")) 
 
 #' # Make Grid
-#' To make the grid, we will use the domain file as a starting point, and use 
-#' `st_make_grid()` to create polygons (grid cells) with dimensions of 0.015 deg. 
+#' To make the grid, start with the domain shapefile and create a raster template 
+#' using `st_make_grid()` to generate polygons (grid cells) with dimensions of 0.015 deg. 
 
 grid <- st_make_grid(domain, what = "polygons", cellsize = 0.015, crs = st_crs(domain))
 grid.df <- data.frame(geometry = grid) %>% 
   mutate(id = as.numeric(rownames(.)))
 
 #' # Rasterize AIS Data
-#' To convert the AIS tracks into a raster grid, we first use `st_intersects()` 
-#' to find which AIS tracks intersect with which grid cells. This results in a 
-#' sparse matrix, with each row representing the AIS observation and the values 
-#' for each row representing the grid cell number. The sparse matrix is converted 
-#' to a dataframe where we have counts of AIS observations for each grid cell.
+#' To convert the AIS tracks into a raster, use the `st_intersects()` function
+#' to get the counts of how many AIS tracks intersect or are contained within each 
+#' grid cell. This results in a sparse matrix, with each row representing the AIS 
+#' observation and the values for each row represent the grid cell number. The 
+#' sparse matrix is converted to a dataframe which have the counts of AIS 
+#' observations for each grid cell. 
+#' 
 
-# set period - either "yr" for year-round or "sm" for summer
+# +
+#' To perform the analysis for each month, summer data must be evaluated separately 
+#' from year-round data. The following rasterization analysis is completed once 
+#' for the year-round data and then again for the summer data. 
+
 periods = c("yr","sm")
 
 for(period in periods) {
@@ -66,10 +75,11 @@ for(period in periods) {
          months <- c("01", "02", "03", "04", "11", "12"),
          months <- c("04", "05", "06", "07", "08", "09", "10", "11"))
   
-  dat <- st_read(here("data", "large_data", str_c("AISTracks_2020_",period,".shp")), 
-                 quiet = TRUE) %>% 
+  dat <- read_sf(here("data", "large_data", str_c("AISTracks_2020_",period,".shp"))) %>% 
     mutate(mon = str_sub(StartDt, 6, 7))
   
+  # data includes tracks that end in 2020, but begin in 2019 - for these tracks, 
+  # re-assign month to be January instead of December
   dat <- dat %>% 
     mutate(mon = ifelse(StartDt < "2020-01-01","01",mon))
 
@@ -92,8 +102,11 @@ for(period in periods) {
                                     "04-15",month)))) %>% 
       st_as_sf() %>% st_make_valid()
     
-    if(!exists("dat.comb")) {dat.comb = dat.rast.df}
-    else {dat.comb = rbind(dat.comb,dat.rast.df)}
+    if(!exists("dat.comb")) {
+      dat.comb = dat.rast.df
+    } else {
+      dat.comb = rbind(dat.comb,dat.rast.df)
+    }
     
   }
   
@@ -104,11 +117,14 @@ dat.comb <- dat.comb %>%
 
 st_write(obj = dat.comb, dsn = here("data","large_data", "AIS_2020_all_monthly_grid.shp"), delete_dsn = T)
 
-#' # Plot
-#' We will plot the resulting raster in leaflet, using colorbins to indicate 
+#' # Create Interactive Map
+#' The resulting raster is plotted in leaflet, using 4 colorbins to indicate 
 #' the different number of vessel counts in each grid cell. 
 
-pal <- colorBin(palette = "YlOrRd", domain = dat.comb$count, bins = c(1,5,25,50,100))
+# +
+#' ## Create map title
+#' The code to create the map title is based off of  
+#' [this Stack Overflow thread](https://stackoverflow.com/questions/49072510/r-add-title-to-leaflet-map);
 
 tag.map.title <- tags$style(HTML("
   .leaflet-control.map-title {
@@ -127,6 +143,16 @@ title.text <- '<h2 style="margin-top:4px; margin-bottom:0px;"> 2020 Tug/Tow AIS 
 subtitle.text <- 
   '<p style="margin-top:2px;margin-bottom:2px;">Vessel traffic data obtained from <a href="https://www.fisheries.noaa.gov/inport/item/64830">Marine Cadastre</a> in the form of AIS vessel tracks.<br><a href="https://api.vtexplorer.com/docs/ref-aistypes.html">Vessel codes</a> included in this analysis are: 31 (tow), 32 (tow), and 52 (tug).</p>'
 title <- tags$div(tag.map.title, HTML(paste(title.text, subtitle.text)))
+
+# +
+#' ## Leaflet Map
+#' The code for adding titles to the layers control element is based off of 
+#' [this website](https://heds.nz/posts/add-titles-layer-control-box-leaflet-r/). 
+#' The code for ensuring that overlay layers (i.e., the towlanes) are always drawn 
+#' on top of the base layers (i.e., the monthly rasters) is based off of 
+#' [this Stack Overflow thread](https://stackoverflow.com/questions/44122246/r-leaflet-is-drawing-base-layers-on-top-of-overlay-layers).
+
+pal <- colorBin(palette = "YlOrRd", domain = dat.comb$count, bins = c(1,5,25,50,100))
 
 map <- leaflet() %>%
   addTiles() %>%
@@ -234,9 +260,9 @@ map <- leaflet() %>%
                    options = layersControlOptions(collapsed = FALSE),
                    position = "topleft") %>%
   addLegend(position = "topleft",
-            pal = pal,
             title = "Vessel Count",
-            values = c(1,5,25,50,100),
+            colors = c("#ffffb2", "#fecc5c", "#fd8d3c", "#e31a1c"),
+            labels = c("1 - 4","5 - 24","25 - 49","50 - 100"),
             opacity = 0.9) %>%
   addScaleBar(position = "bottomright") %>%
   addMiniMap(zoomLevelFixed = 4, position = "bottomleft") %>% 
@@ -251,6 +277,5 @@ map <- leaflet() %>%
                         }") %>% 
   addControl(title, position = "topleft", className = "map-title")
 
-saveWidget(map, file = here("output",str_c("AIS_2020_monthly_map_v2.html")))
-#saveWidget(map, file = here("output",str_c("TugTow_AIS_2020_monthly_map.html")))
+saveWidget(map, file = here("output",str_c("AIS_2020_monthly_map.html")))
 
